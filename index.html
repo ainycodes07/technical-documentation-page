@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MinBrowser Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Font: Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="navbar">
+    <header>MinBrowser Docs</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#Installation">Installation</a>
+    <a class="nav-link" href="#Features">Features</a>
+    <a class="nav-link" href="#Keyboard_Shortcuts">Keyboard Shortcuts</a>
+    <a class="nav-link" href="#Configuration">Configuration</a>
+  </nav>
+
+  <!-- Main Documentation -->
+  <main id="main-doc">
+
+    <!-- Section 1 -->
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>MinBrowser is a fast, minimal, and high-performance web browser designed for focus and simplicity.</p>
+      <p>It emphasizes speed and efficiency, stripping away unnecessary UI elements.</p>
+      <p>The browser is open-source and actively maintained by a community of contributors.</p>
+      <p>Its small footprint makes it ideal for developers and productivity-focused users.</p>
+      <p>MinBrowser provides features like built-in ad-blocking, reading mode, and custom search engines.</p>
+      <ul>
+        <li>Lightweight</li>
+        <li>Privacy-first</li>
+        <li>Cross-platform</li>
+      </ul>
+      <code>min https://example.com</code>
+    </section>
+
+    <!-- Section 2 -->
+    <section class="main-section" id="Installation">
+      <header>Installation</header>
+      <p>MinBrowser can be installed across Windows, macOS, and Linux distributions.</p>
+      <p>For Linux, Min is available via AppImage, DEB, and RPM formats.</p>
+      <p>On macOS, you can install Min via Homebrew or direct download.</p>
+      <p>On Windows, the installer package is available on the official GitHub releases page.</p>
+      <p>You can also build MinBrowser from source for maximum customization.</p>
+      <ul>
+        <li>macOS: <code>brew install --cask min</code></li>
+        <li>Linux: <code>sudo dpkg -i min.deb</code></li>
+        <li>Windows: Run the installer</li>
+      <code>git clone https://github.com/minbrowser/min.git</code>
+      </ul>
+    </section>
+
+    <!-- Section 3 -->
+    <section class="main-section" id="Features">
+      <header>Features</header>
+      <p>MinBrowser offers powerful features despite its minimal design.</p>
+      <p>Its ad-blocker removes intrusive ads and trackers automatically.</p>
+      <p>It includes Focus Mode for distraction-free browsing.</p>
+      <p>The browser has built-in search shortcuts and customizable engines.</p>
+      <p>It consumes significantly less memory than most modern browsers.</p>
+      <ul>
+        <li>Automatic ad blocking</li>
+        <li>Privacy-focused design</li>
+        <li>Custom search shortcuts</li>
+        <li>Distraction-free reading</li>
+        <li>Low memory usage</li>
+      </ul>
+      <code>// Enable focus mode</code>
+      <code>ctrl+shift+f</code>
+    </section>
+
+    <!-- Section 4 -->
+    <section class="main-section" id="Keyboard_Shortcuts">
+      <header>Keyboard Shortcuts</header>
+      <p>Keyboard shortcuts allow users to navigate quickly in MinBrowser.</p>
+      <p>They are designed for developers and power-users who prefer speed.</p>
+      <p>Some shortcuts mimic common editor commands for familiarity.</p>
+      <p>You can also configure or disable certain shortcuts via settings.</p>
+      <p>Below are some of the most useful key bindings:</p>
+      <ul>
+        <li><code>Ctrl + T</code> → Open a new tab</li>
+        <li><code>Ctrl + W</code> → Close the current tab</li>
+        <li><code>Ctrl + Shift + F</code> → Focus mode</li>
+        <li><code>Ctrl + Tab</code> → Switch between tabs</li>
+        <li><code>Ctrl + L</code> → Focus the address bar</li>
+      </ul>
+      <code>// Example: Open new tab</code>
+      <code>ctrl + t</code>
+    </section>
+
+    <!-- Section 5 -->
+    <section class="main-section" id="Configuration">
+      <header>Configuration</header>
+      <p>MinBrowser allows configuration via settings and JSON files.</p>
+      <p>You can modify search engines, privacy preferences, and shortcuts.</p>
+      <p>Advanced users can configure startup behavior and UI elements.</p>
+      <p>Settings are stored locally and synced across sessions.</p>
+      <p>Configuration examples are shown below:</p>
+      <ul>
+        <li><code>"searchEngine": "DuckDuckGo"</code></li>
+        <li><code>"focusMode": true</code></li>
+        <li><code>"adBlock": true</code></li>
+      </ul>
+      <code>{
+  "searchEngine": "DuckDuckGo",
+  "focusMode": true,
+  "adBlock": true
+}</code>
+    </section>
+    <footer>
+      Made with 🖤 by AINYCODES
+    </footer>
+  </main>
+</body>
+</html>
