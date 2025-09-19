@@ -9,4 +9,4 @@ The design features **connected edge-to-edge borders**, uppercase headings, lett
 - Uppercase headings with **letter-spacing** for readability
 - Fixed left-side navigation on desktop, responsive on mobile
 - Clean, minimal code blocks integrated into content
-- Font: **Inter**, uniform font size (15px) across the page
+- Font: **Inter**, uniform font size across the page
